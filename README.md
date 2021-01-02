@@ -1,9 +1,9 @@
-#Adventure Game Studio
+# Adventure Game Studio
 
 Licensed under the Artistic License 2.0, see License.txt.
 
 
-##Engine instructions
+## Engine instructions
 
 To get started building the AGS engine, see the platform specific instructions or forum threads:
 
@@ -14,7 +14,7 @@ To get started building the AGS engine, see the platform specific instructions o
 -    [PSP](PSP/README.md) ([Forum thread](http://www.adventuregamestudio.co.uk/forums/index.php?topic=43998.0))
 -    [Mac OS X](OSX/README.md) ([Forum thread](http://www.adventuregamestudio.co.uk/forums/index.php?topic=47264.0))
 
-##Issue tracker
+## Issue tracker
 
 Please report bugs and feature requests at the [AGS Issue Tracker](http://www.adventuregamestudio.co.uk/forums/index.php?action=projects)!
 
@@ -28,7 +28,7 @@ This is also a good idea if you have commit access, but feel that changes you ma
 The [master](https://github.com/adventuregamestudio/ags/tree/master) branch should be kept in a working state and always compilable on all targeted platforms.
 Larger changes that potentially break things temporarily should first be made in other branches or in personal forks.
 
-##AGS game compatibility:
+## AGS game compatibility:
 
 This runtime engine port is not compatible with all AGS games. There are the
 following restrictions:
@@ -44,14 +44,14 @@ following restrictions:
 -   Games that depend on plugins for which there is no platform-independent
     replacement will not load.
 
-##Changes from Chris Jones' version of AGS
+## Changes from Chris Jones' version of AGS
 
 This version of AGS contains changes from the version published by Chris Jones.
 The run-time engine was ported to Android, iOS, Linux, Mac OS X and PSP and a refactoring effort is under way.
 A detailed documentation of the changes is provided in the form of the git log of this git repository
 (https://github.com/adventuregamestudio/ags).
 
-##Credits:
+## Credits:
 
 -   Adventure Game Studio by Chris Jones (http://www.adventuregamestudio.co.uk/)
 -   Linux port by berolinux (http://gitorious.org/ags)
